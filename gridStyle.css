@@ -296,11 +296,13 @@ input{
     .contents{
         display: flex;
         flex-direction: column;
+        background-color: white;
     }
     .box{  
         margin: 0px;
         padding: 20px;
         border: none;
+        width: auto;
     }
     .tasks .box{
         margin:20px ;
@@ -323,11 +325,28 @@ input{
     .show{
         display: none;
     }
+    .hide{
+        display: block;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    .bar-header{
+        padding: 0px;
+        padding-left: 20px;
+        
+    }
     .graph{
         width: 30rem;
     }
     
     .grid-item-contentA,.grid-item-contentB,.grid-item-contentC{
         width: 100%;
+    }
+    .grid-item-searchBar{
+        
+        width: 100%;
+        margin: 20px;
+        
+        
     }
 }
